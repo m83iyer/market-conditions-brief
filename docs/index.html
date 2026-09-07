@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market Conditions Brief</title>
+<meta name="description" content="Six independently measured US and India market and macro readings, updated weekly. No combined reading, no recommendation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Stockcentric &middot; Free tool</p>
+    <div class="title-row">
+      <h1>Market Conditions Brief</h1>
+      <div class="segmented" id="market-toggle" role="tablist" aria-label="Market">
+        <button type="button" data-market="us" class="active" role="tab" aria-selected="true">US</button>
+        <button type="button" data-market="in" role="tab" aria-selected="false">India</button>
+      </div>
+    </div>
+    <p class="sub">Six readings, each measured on its own — how jumpy it is, where the index sits versus its own average, how many stocks are moving with it, and the rates, dollar and oil backdrop around it. No combined reading. No recommendation.</p>
+    <p class="as-of" id="as-of-line">As of &mdash;</p>
+  </div>
+</header>
+
+<main>
+  <section class="gauge-group">
+    <h2 class="group-label">Stock market</h2>
+    <div class="card-grid" id="group-market"></div>
+  </section>
+
+  <section class="gauge-group">
+    <h2 class="group-label">Macro backdrop</h2>
+    <div class="card-grid" id="group-macro"></div>
+  </section>
+
+  <section class="panel scrubber-panel">
+    <div class="scrubber-head">
+      <span class="scrubber-label">Replay a past week</span>
+      <span class="scrubber-value" id="scrub-date-label">Live</span>
+    </div>
+    <input type="range" id="week-scrubber" min="0" max="0" value="0" step="1">
+    <div class="scrubber-foot">
+      <span id="scrub-min-label"></span>
+      <button type="button" id="scrub-live-btn">Back to live</button>
+      <span id="scrub-max-label"></span>
+    </div>
+  </section>
+</main>
+
+<div id="expand-overlay" hidden>
+  <div id="expand-panel" role="dialog" aria-modal="true">
+    <button type="button" id="expand-close" aria-label="Close">&times;</button>
+    <h3 id="expand-title"></h3>
+    <p id="expand-question"></p>
+    <div id="expand-chart-wrap">
+      <canvas id="expand-chart"></canvas>
+      <div id="expand-tooltip"></div>
+    </div>
+    <p id="expand-method"></p>
+    <p id="expand-source"></p>
+  </div>
+</div>
+
+<footer>
+  <div class="micro-disclosure">Not a recommendation &middot; measured conditions, not advice &middot; Yahoo Finance &amp; OECD data &middot; <a href="https://twitter.com/Stockcentric1" target="_blank" rel="noopener">@Stockcentric1</a> &middot; <a href="https://github.com/m83iyer/market-conditions-brief" target="_blank" rel="noopener">Source on GitHub</a></div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "gauges": {
+    "in": {
+      "n_read": 6,
+      "published": true,
+      "reasons": {}
+    },
+    "us": {
+      "n_read": 6,
+      "published": true,
+      "reasons": {}
+    }
+  },
+  "members": {
+    "in": {
+      "label": "nifty500",
+      "n": 501,
+      "source": "fresh_fetch"
+    },
+    "us": {
+      "label": "sp500",
+      "n": 503,
+      "source": "fresh_fetch"
+    }
+  },
+  "run_date": "2026-09-07"
+}
