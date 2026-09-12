@@ -1,9 +1,9 @@
 {
   "gauges": {
     "breadth": {
-      "as_of": "2026-09-04",
+      "as_of": "2026-09-11",
       "no_read_reason": null,
-      "position": 67.1,
+      "position": 59.5,
       "position_kind": "raw_pct_100",
       "source": {
         "provider": "Yahoo Finance via yfinance",
@@ -12,7 +12,7 @@
       "spark": [],
       "state": "broad",
       "status": "READ",
-      "value": 67.1,
+      "value": 59.5,
       "value_unit": "pct_members",
       "window": {
         "n_eligible": 501,
@@ -20,19 +20,15 @@
       }
     },
     "dollar": {
-      "as_of": "2026-09-04",
+      "as_of": "2026-09-11",
       "no_read_reason": null,
-      "position": 0.82,
+      "position": 1.62,
       "position_kind": "raw_pct_12",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "DX-Y.NYB"
       },
       "spark": [
-        [
-          "2026-06-19",
-          100.85
-        ],
         [
           "2026-06-26",
           101.36
@@ -76,11 +72,15 @@
         [
           "2026-09-04",
           99.16
+        ],
+        [
+          "2026-09-11",
+          99.12
         ]
       ],
       "state": "steady",
       "status": "READ",
-      "value": 0.82,
+      "value": 1.62,
       "value_unit": "pct_change",
       "window": {
         "kind": "yoy",
@@ -88,19 +88,15 @@
       }
     },
     "oil": {
-      "as_of": "2026-09-04",
+      "as_of": "2026-09-11",
       "no_read_reason": null,
-      "position": 92.7,
+      "position": 95.4,
       "position_kind": "percentile_10y",
       "source": {
         "provider": "Yahoo Finance via yfinance (Brent)",
         "series": "BZ=F"
       },
       "spark": [
-        [
-          "2026-06-19",
-          79.85
-        ],
         [
           "2026-06-26",
           71.99
@@ -144,11 +140,15 @@
         [
           "2026-09-04",
           96.28
+        ],
+        [
+          "2026-09-11",
+          104.61
         ]
       ],
       "state": "very_high",
       "status": "READ",
-      "value": 96.28,
+      "value": 104.61,
       "value_unit": "usd_per_bbl",
       "window": {
         "n": 2514,
@@ -156,19 +156,15 @@
       }
     },
     "rates": {
-      "as_of": "2026-09-04",
+      "as_of": "2026-09-11",
       "no_read_reason": null,
-      "position": 99.3,
+      "position": 100.0,
       "position_kind": "percentile_10y",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "^TNX"
       },
       "spark": [
-        [
-          "2026-06-19",
-          4.451
-        ],
         [
           "2026-06-26",
           4.372
@@ -212,11 +208,15 @@
         [
           "2026-09-04",
           4.784
+        ],
+        [
+          "2026-09-11",
+          4.975
         ]
       ],
       "state": "very_high",
       "status": "READ",
-      "value": 4.784,
+      "value": 4.975,
       "value_unit": "pct_yield",
       "window": {
         "n": 2512,
@@ -224,19 +224,15 @@
       }
     },
     "trend": {
-      "as_of": "2026-09-04",
+      "as_of": "2026-09-11",
       "no_read_reason": null,
-      "position": 8.08,
+      "position": 6.9,
       "position_kind": "raw_pct_15",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "^GSPC"
       },
       "spark": [
-        [
-          "2026-06-19",
-          7500.5801
-        ],
         [
           "2026-06-26",
           7354.02
@@ -280,11 +276,15 @@
         [
           "2026-09-04",
           7718.6001
+        ],
+        [
+          "2026-09-11",
+          7656.98
         ]
       ],
       "state": "above",
       "status": "READ",
-      "value": 8.08,
+      "value": 6.9,
       "value_unit": "pct_of_avg",
       "window": {
         "kind": "sma_sessions",
@@ -292,19 +292,15 @@
       }
     },
     "volatility": {
-      "as_of": "2026-09-04",
+      "as_of": "2026-09-11",
       "no_read_reason": null,
-      "position": 30.1,
+      "position": 40.0,
       "position_kind": "percentile_10y",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "^VIX"
       },
       "spark": [
-        [
-          "2026-06-19",
-          16.4
-        ],
         [
           "2026-06-26",
           18.41
@@ -348,18 +344,22 @@
         [
           "2026-09-04",
           14.53
+        ],
+        [
+          "2026-09-11",
+          15.84
         ]
       ],
       "state": "normal",
       "status": "READ",
-      "value": 14.53,
+      "value": 15.84,
       "value_unit": "index",
       "window": {
-        "n": 2514,
+        "n": 2515,
         "years": 10
       }
     }
   },
-  "generated_at": "2026-09-07T05:47:39.641333+00:00",
+  "generated_at": "2026-09-12T07:52:35.811405+00:00",
   "market": "us"
 }
