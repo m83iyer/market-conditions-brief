@@ -15,8 +15,7 @@
     "in": {
       "label": "nifty500",
       "n": 501,
-      "reason": "fetch_error: ReadTimeout",
-      "source": "committed_fallback"
+      "source": "fresh_fetch"
     },
     "us": {
       "label": "sp500",
@@ -24,5 +23,5 @@
       "source": "fresh_fetch"
     }
   },
-  "run_date": "2026-09-12"
+  "run_date": "2026-09-19"
 }
