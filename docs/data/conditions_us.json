@@ -1,18 +1,18 @@
 {
   "gauges": {
     "breadth": {
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-25",
       "no_read_reason": null,
-      "position": 52.5,
+      "position": 49.1,
       "position_kind": "raw_pct_100",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "S&P 500 members"
       },
       "spark": [],
-      "state": "broad",
+      "state": "mixed",
       "status": "READ",
-      "value": 52.5,
+      "value": 49.1,
       "value_unit": "pct_members",
       "window": {
         "n_eligible": 501,
@@ -20,19 +20,15 @@
       }
     },
     "dollar": {
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-25",
       "no_read_reason": null,
-      "position": 2.95,
+      "position": 2.46,
       "position_kind": "raw_pct_12",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "DX-Y.NYB"
       },
       "spark": [
-        [
-          "2026-07-03",
-          100.86
-        ],
         [
           "2026-07-10",
           100.97
@@ -76,11 +72,15 @@
         [
           "2026-09-18",
           100.22
+        ],
+        [
+          "2026-09-25",
+          100.97
         ]
       ],
       "state": "steady",
       "status": "READ",
-      "value": 2.95,
+      "value": 2.46,
       "value_unit": "pct_change",
       "window": {
         "kind": "yoy",
@@ -88,7 +88,7 @@
       }
     },
     "oil": {
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-25",
       "no_read_reason": null,
       "position": 95.1,
       "position_kind": "percentile_10y",
@@ -97,10 +97,6 @@
         "series": "BZ=F"
       },
       "spark": [
-        [
-          "2026-07-03",
-          71.8
-        ],
         [
           "2026-07-10",
           76.01
@@ -144,11 +140,15 @@
         [
           "2026-09-18",
           103.87
+        ],
+        [
+          "2026-09-25",
+          104.32
         ]
       ],
       "state": "very_high",
       "status": "READ",
-      "value": 103.87,
+      "value": 104.32,
       "value_unit": "usd_per_bbl",
       "window": {
         "n": 2514,
@@ -156,7 +156,7 @@
       }
     },
     "rates": {
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-25",
       "no_read_reason": null,
       "position": 100.0,
       "position_kind": "percentile_10y",
@@ -165,10 +165,6 @@
         "series": "^TNX"
       },
       "spark": [
-        [
-          "2026-07-03",
-          4.485
-        ],
         [
           "2026-07-10",
           4.569
@@ -212,11 +208,15 @@
         [
           "2026-09-18",
           4.998
+        ],
+        [
+          "2026-09-25",
+          5.184
         ]
       ],
       "state": "very_high",
       "status": "READ",
-      "value": 4.998,
+      "value": 5.184,
       "value_unit": "pct_yield",
       "window": {
         "n": 2512,
@@ -224,19 +224,15 @@
       }
     },
     "trend": {
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-25",
       "no_read_reason": null,
-      "position": 6.51,
+      "position": 7.47,
       "position_kind": "raw_pct_15",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "^GSPC"
       },
       "spark": [
-        [
-          "2026-07-03",
-          7483.2402
-        ],
         [
           "2026-07-10",
           7575.3901
@@ -280,11 +276,15 @@
         [
           "2026-09-18",
           7650.5
+        ],
+        [
+          "2026-09-25",
+          7743.4102
         ]
       ],
       "state": "above",
       "status": "READ",
-      "value": 6.51,
+      "value": 7.47,
       "value_unit": "pct_of_avg",
       "window": {
         "kind": "sma_sessions",
@@ -292,19 +292,15 @@
       }
     },
     "volatility": {
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-25",
       "no_read_reason": null,
-      "position": 32.2,
+      "position": 32.6,
       "position_kind": "percentile_10y",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "^VIX"
       },
       "spark": [
-        [
-          "2026-07-03",
-          16.15
-        ],
         [
           "2026-07-10",
           15.03
@@ -348,11 +344,15 @@
         [
           "2026-09-18",
           14.81
+        ],
+        [
+          "2026-09-25",
+          14.87
         ]
       ],
       "state": "normal",
       "status": "READ",
-      "value": 14.81,
+      "value": 14.87,
       "value_unit": "index",
       "window": {
         "n": 2515,
@@ -360,6 +360,6 @@
       }
     }
   },
-  "generated_at": "2026-09-19T07:59:56.924571+00:00",
+  "generated_at": "2026-09-26T08:31:43.938581+00:00",
   "market": "us"
 }

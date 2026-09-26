@@ -1,9 +1,9 @@
 {
   "gauges": {
     "breadth": {
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-25",
       "no_read_reason": null,
-      "position": 49.8,
+      "position": 47.9,
       "position_kind": "raw_pct_100",
       "source": {
         "provider": "Yahoo Finance via yfinance",
@@ -12,27 +12,23 @@
       "spark": [],
       "state": "mixed",
       "status": "READ",
-      "value": 49.8,
+      "value": 47.9,
       "value_unit": "pct_members",
       "window": {
-        "n_eligible": 498,
+        "n_eligible": 499,
         "n_listed": 501
       }
     },
     "dollar": {
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-25",
       "no_read_reason": null,
-      "position": 8.97,
+      "position": 8.32,
       "position_kind": "raw_pct_12",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "USDINR=X"
       },
       "spark": [
-        [
-          "2026-07-03",
-          95.5271
-        ],
         [
           "2026-07-10",
           95.3902
@@ -76,11 +72,15 @@
         [
           "2026-09-18",
           95.7992
+        ],
+        [
+          "2026-09-25",
+          96.1613
         ]
       ],
       "state": "much_stronger",
       "status": "READ",
-      "value": 8.97,
+      "value": 8.32,
       "value_unit": "pct_change",
       "window": {
         "kind": "yoy",
@@ -88,7 +88,7 @@
       }
     },
     "oil": {
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-25",
       "no_read_reason": null,
       "position": 95.1,
       "position_kind": "percentile_10y",
@@ -97,10 +97,6 @@
         "series": "BZ=F"
       },
       "spark": [
-        [
-          "2026-07-03",
-          71.8
-        ],
         [
           "2026-07-10",
           76.01
@@ -144,11 +140,15 @@
         [
           "2026-09-18",
           103.87
+        ],
+        [
+          "2026-09-25",
+          104.32
         ]
       ],
       "state": "very_high",
       "status": "READ",
-      "value": 103.87,
+      "value": 104.32,
       "value_unit": "usd_per_bbl",
       "window": {
         "n": 2514,
@@ -224,19 +224,15 @@
       }
     },
     "trend": {
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-25",
       "no_read_reason": null,
-      "position": -4.69,
+      "position": -5.25,
       "position_kind": "raw_pct_15",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "^NSEI"
       },
       "spark": [
-        [
-          "2026-07-03",
-          24270.8496
-        ],
         [
           "2026-07-10",
           24206.9004
@@ -280,11 +276,15 @@
         [
           "2026-09-18",
           23346.4004
+        ],
+        [
+          "2026-09-25",
+          23140.5
         ]
       ],
       "state": "below",
       "status": "READ",
-      "value": -4.69,
+      "value": -5.25,
       "value_unit": "pct_of_avg",
       "window": {
         "kind": "sma_sessions",
@@ -292,19 +292,15 @@
       }
     },
     "volatility": {
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-25",
       "no_read_reason": null,
-      "position": 9.5,
+      "position": 18.7,
       "position_kind": "percentile_10y",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "^INDIAVIX"
       },
       "spark": [
-        [
-          "2026-07-03",
-          11.8
-        ],
         [
           "2026-07-10",
           12.25
@@ -348,11 +344,15 @@
         [
           "2026-09-18",
           11.39
+        ],
+        [
+          "2026-09-25",
+          12.16
         ]
       ],
       "state": "calm",
       "status": "READ",
-      "value": 11.39,
+      "value": 12.16,
       "value_unit": "index",
       "window": {
         "n": 2451,
@@ -360,6 +360,6 @@
       }
     }
   },
-  "generated_at": "2026-09-19T08:00:42.852231+00:00",
+  "generated_at": "2026-09-26T08:32:25.445136+00:00",
   "market": "in"
 }
