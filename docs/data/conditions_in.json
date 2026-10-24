@@ -1,38 +1,34 @@
 {
   "gauges": {
     "breadth": {
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-23",
       "no_read_reason": null,
-      "position": 41.8,
+      "position": 29.2,
       "position_kind": "raw_pct_100",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "Nifty 500 members"
       },
       "spark": [],
-      "state": "mixed",
+      "state": "narrow",
       "status": "READ",
-      "value": 41.8,
+      "value": 29.2,
       "value_unit": "pct_members",
       "window": {
-        "n_eligible": 491,
+        "n_eligible": 490,
         "n_listed": 501
       }
     },
     "dollar": {
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-23",
       "no_read_reason": null,
-      "position": 7.65,
+      "position": 8.19,
       "position_kind": "raw_pct_12",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "USDINR=X"
       },
       "spark": [
-        [
-          "2026-07-31",
-          95.6848
-        ],
         [
           "2026-08-07",
           95.3119
@@ -76,11 +72,15 @@
         [
           "2026-10-16",
           94.5248
+        ],
+        [
+          "2026-10-23",
+          94.93
         ]
       ],
-      "state": "stronger",
+      "state": "much_stronger",
       "status": "READ",
-      "value": 7.65,
+      "value": 8.19,
       "value_unit": "pct_change",
       "window": {
         "kind": "yoy",
@@ -88,19 +88,15 @@
       }
     },
     "oil": {
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-23",
       "no_read_reason": null,
-      "position": 97.4,
+      "position": 97.9,
       "position_kind": "percentile_10y",
       "source": {
         "provider": "Yahoo Finance via yfinance (Brent, global input)",
         "series": "BZ=F"
       },
       "spark": [
-        [
-          "2026-07-31",
-          90.12
-        ],
         [
           "2026-08-07",
           83.55
@@ -143,12 +139,16 @@
         ],
         [
           "2026-10-16",
-          109.69
+          109.86
+        ],
+        [
+          "2026-10-23",
+          111.66
         ]
       ],
       "state": "very_high",
       "status": "READ",
-      "value": 109.69,
+      "value": 111.66,
       "value_unit": "usd_per_bbl",
       "window": {
         "n": 2515,
@@ -224,19 +224,15 @@
       }
     },
     "trend": {
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-23",
       "no_read_reason": null,
-      "position": -4.32,
+      "position": -6.32,
       "position_kind": "raw_pct_15",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "^NSEI"
       },
       "spark": [
-        [
-          "2026-07-31",
-          24383.5996
-        ],
         [
           "2026-08-07",
           24570.6504
@@ -280,11 +276,15 @@
         [
           "2026-10-16",
           23146.1504
+        ],
+        [
+          "2026-10-23",
+          22600.0
         ]
       ],
       "state": "below",
       "status": "READ",
-      "value": -4.32,
+      "value": -6.32,
       "value_unit": "pct_of_avg",
       "window": {
         "kind": "sma_sessions",
@@ -292,19 +292,15 @@
       }
     },
     "volatility": {
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-23",
       "no_read_reason": null,
-      "position": 42.2,
+      "position": 67.8,
       "position_kind": "percentile_10y",
       "source": {
         "provider": "Yahoo Finance via yfinance",
         "series": "^INDIAVIX"
       },
       "spark": [
-        [
-          "2026-07-31",
-          11.76
-        ],
         [
           "2026-08-07",
           12.16
@@ -348,18 +344,22 @@
         [
           "2026-10-16",
           14.06
+        ],
+        [
+          "2026-10-23",
+          16.86
         ]
       ],
       "state": "normal",
       "status": "READ",
-      "value": 14.06,
+      "value": 16.86,
       "value_unit": "index",
       "window": {
-        "n": 2452,
+        "n": 2451,
         "years": 10
       }
     }
   },
-  "generated_at": "2026-10-17T03:24:38.224118+00:00",
+  "generated_at": "2026-10-24T03:25:27.384441+00:00",
   "market": "in"
 }
